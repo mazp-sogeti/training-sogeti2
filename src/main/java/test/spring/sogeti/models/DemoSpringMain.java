@@ -35,6 +35,8 @@ public class DemoSpringMain {
 		System.out.println("\nCheak if the objects are equals:" + result);
 		System.out.println("\n theCricketCoach2" +theCricketCoach2);
 		System.out.println("\n theCricketCoach2" +theCricketCoach3+"\n");
+		System.out.println("\n just prub the git new commit \n");
+		
 			
 		
 		//close the context
