@@ -10,6 +10,6 @@
 	<% user u = new user(); 
 		u = (user)request.getAttribute("dato");
 	%>
-	<%=u.getName()%>
+	<%=u.getPassword()%>
 </body>
-</html>
+</html> 
