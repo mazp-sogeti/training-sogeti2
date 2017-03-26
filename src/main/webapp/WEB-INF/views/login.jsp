@@ -11,5 +11,6 @@
 		u = (user)request.getAttribute("dato");
 	%>
 	<%=u.getPassword()%>
+		<%=u.getPassword()%>
 </body>
 </html> 
