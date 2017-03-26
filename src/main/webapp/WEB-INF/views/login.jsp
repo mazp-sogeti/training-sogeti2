@@ -12,5 +12,6 @@
 	%>
 	<%=u.getPassword()%>
 		<%=u.getPassword()%>
+	<%=u.getName()%>
 </body>
 </html> 
