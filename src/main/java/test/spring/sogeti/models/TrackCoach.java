@@ -20,8 +20,16 @@ public class TrackCoach implements Coach {
 		// TODO Auto-generated method stub
 		return fortuneService.getFortune();
 	}
+	
+	//injection on the constructor 
 	public TrackCoach (FortuneService theFortuneService){
 		fortuneService = theFortuneService;
+	}
+	public void doMyStartUpStuuf(){
+		System.out.println("we are inside of init method doMyStartUpStuuf ");
+	}
+	public void doMyCleanUpStuuf(){
+		System.out.println("we are inside of init method doMyCleanUpStuuf ");
 	}
 	
 

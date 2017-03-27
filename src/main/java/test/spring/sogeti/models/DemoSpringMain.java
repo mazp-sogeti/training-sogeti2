@@ -37,7 +37,9 @@ public class DemoSpringMain {
 		System.out.println("\n theCricketCoach2" +theCricketCoach3+"\n");
 		System.out.println("\n just prub the git new commit \n");
 		
-			
+	
+		Coach coach = context.getBean("myTrackCoach", Coach.class);
+		System.out.println("\nwe are testing the init and destroy methods "+ coach.getDailyWorkout()+"\n");
 		
 		//close the context
 		context.close();

@@ -18,8 +18,13 @@
  	 <constructor-arg ref="myFortuneService"/>
  	</bean>
  	
+ 	<!-- we add unit and destroy method -->
  	<bean id="myTrackCoach" 
- 	class="test.spring.sogeti.models.TrackCoach"> 
+ 	class="test.spring.sogeti.models.TrackCoach"
+ 	init-method="doMyStartUpStuuf"
+ 	destroy-method="doMyCleanUpStuuf"> 
+ 	
+ 	<!-- here we set up the constructors injections -->
  	<constructor-arg  ref="myFortuneService"/>
  	</bean>
  	

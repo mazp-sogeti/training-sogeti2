@@ -28,21 +28,37 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
+//	@RequestMapping(value = "/", method = RequestMethod.GET)
+//	public String home(Locale locale, Model model) {
+//		logger.info("Welcome home! The client locale is {}.", locale);
+//		
+//		Date date = new Date();
+//		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+//		
+//		String formattedDate = dateFormat.format(date);
+//		
+//		model.addAttribute("serverTime", formattedDate );
+//		
+//		return home;
+//	}
+//	
+//	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
+	public ModelAndView  home(HttpServletRequest request,HttpServletResponse response ){
+		ModelAndView model = new ModelAndView("home"); // 
+//		
+//		String name = request.getParameter("name");
+//		String pass = request.getParameter("pass");
+//		
+//		user u = new user();
+//		u.setName(name);
+//		u.setPassword(pass);
+//	
+//		model.addObject("dato", u); 
+//		//request.setAttribute("dato", "kiss my asss please");
 		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
-		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
-		
-		return "home";
-	}
-	
-	
+		return model;
+	}	
 	
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public ModelAndView  homeLogin(HttpServletRequest request,HttpServletResponse response ){
