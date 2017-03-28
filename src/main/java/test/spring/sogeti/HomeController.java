@@ -60,11 +60,7 @@ public class HomeController {
 		return model;
 	}	
 	
-<<<<<<< HEAD
-=======
-	
-	
->>>>>>> branch 'master' of https://github.com/mazp-sogeti/training-spring.git
+
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public ModelAndView  homeLogin(HttpServletRequest request,HttpServletResponse response ){
 		ModelAndView model = new ModelAndView("login"); // here was login
