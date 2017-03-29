@@ -43,10 +43,10 @@ public class HomeController {
 //	}
 //	
 //	@RequestMapping(value = "/login", method = RequestMethod.GET)
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public ModelAndView  home(HttpServletRequest request,HttpServletResponse response ){
-		ModelAndView model = new ModelAndView("home"); // 
-//		
+//	@RequestMapping(value = "/", method = RequestMethod.GET)
+//	public ModelAndView  home(HttpServletRequest request,HttpServletResponse response ){
+//		ModelAndView model = new ModelAndView("home"); // 
+////		
 //		String name = request.getParameter("name");
 //		String pass = request.getParameter("pass");
 //		
@@ -57,8 +57,8 @@ public class HomeController {
 //		model.addObject("dato", u); 
 //		//request.setAttribute("dato", "kiss my asss please");
 		
-		return model;
-	}	
+//		return model;
+//	}	
 	
 
 	@RequestMapping(value = "/login", method = RequestMethod.GET)

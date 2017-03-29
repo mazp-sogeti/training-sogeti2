@@ -17,6 +17,8 @@
 <h1>Responsive Web Design Demo</h1>
 <h2>Resize this responsive page!</h2>
 
+<a href="silly/showForm"> hello word form</a>
+
 <div class="city">
   <h2>London</h2>
   <p>London is the capital of England.</p>
