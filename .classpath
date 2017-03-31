@@ -33,7 +33,5 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/mazp/Downloads/spring-data-mongodb-1.8.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="/Users/mazp/Downloads/mongo-java-driver-3.0.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

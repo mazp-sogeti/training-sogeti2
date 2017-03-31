@@ -7,11 +7,29 @@ public class Student {
 	String firstName;
 	String lastName;
 	String country;
+	String favoriteLenguage;
+	String [] operatingSystem;
 	
+	public String getFavoriteLenguage() {
+		return favoriteLenguage;
+	}
+
+	public void setFavoriteLenguage(String favoriteLenguage) {
+		this.favoriteLenguage = favoriteLenguage;
+	}
+
 	private LinkedHashMap<String, String> countryOptions;
 	
 	public String getCountry() {
 		return country;
+	}
+
+	public String[] getOperatingSystem() {
+		return operatingSystem;
+	}
+
+	public void setOperatingSystem(String[] operatingSystem) {
+		this.operatingSystem = operatingSystem;
 	}
 
 	public void setCountry(String country) {
